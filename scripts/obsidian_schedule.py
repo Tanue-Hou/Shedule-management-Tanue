@@ -6,7 +6,7 @@ import uuid
 import sys
 
 # Default file path if the user hasn't configured it.
-OBSIDIAN_FILE = os.path.expanduser('~/.schedule.md')
+OBSIDIAN_FILE = '/Users/tanue/Documents/antigravity/friendly-lavoisier/schedule.md'
 
 def ensure_file_exists():
     if not os.path.exists(OBSIDIAN_FILE):
